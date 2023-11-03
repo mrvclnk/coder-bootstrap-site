@@ -45,3 +45,34 @@ header>nav:nth-child(1) i {
     font-size: .6em;
     /*sepetim butonundaki kırmızı bildirim kısmını yukarı almak ıcın pozisyonu ile oynayacagız*/
 }
+
+.featured-card {
+    position: relative;
+    background-color: #ffe01a;
+    color: #414141;
+    min-height: 350px;
+    max-height: 350px;
+}
+
+.featured-card i {
+    font-size: 4rem;
+}
+
+.featured-card p {
+    font-size: .9em;
+}
+
+.featured-card a {
+    text-decoration: none;
+    color: #414141;
+}
+
+.featured-card a>i {
+    font-size: 1em;
+}
+
+.featured-card:hover,
+.featured-card:hover a {
+    background-color: #414141;
+    color: #ffe01a;
+}
